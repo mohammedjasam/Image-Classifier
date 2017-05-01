@@ -194,21 +194,3 @@ for l in OP:
     print (l[0].ljust(20), l[1].ljust(65), l[2].ljust(30))
 
 
-
-
-""" TESTING PHASE """
-### Finds out the categories in the restaurants
-# main=[]
-#
-# for x in columns['categories']:
-#     jj=ast.literal_eval(x)
-#     if 'Restaurants' in jj:
-#         l.append(jj)
-#
-# for x in l:
-#     for y in x:
-#         main.append(y)
-#
-# main=list(set(main))
-#
-# print(main)
